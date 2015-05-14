@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Hanson/AndroidStudioProjects/STLViewer-master/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <drawable name="translucent_background">#44000000</drawable>
+    <!-- From: file:/C:/Users/Hanson/AndroidStudioProjects/STLViewer-master/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="alpha">Alpha</string>
+    <string name="app_name">STLViewer</string>
+    <string name="app_pref">STLViewer Preferences</string>
+    <string name="axes">Axes:</string>
+    <string name="blue">Blue</string>
+    <string name="closePreferences">Save &amp; close</string>
+    <string name="close_dialog">Close dialog</string>
+    <string name="displayAxis">Display axes and grids:</string>
+    <string name="error_fetch_data">Failed to read the STL file.</string>
+    <string name="green">Green</string>
+    <string name="grids">Grids:</string>
+    <string name="hello">Please load the STL file from the file chooser(menu key, or tap the screen).</string>
+    <string name="menu_open">Select STL file...</string>
+    <string name="objectColor">Object color:</string>
+    <string name="parent_directory">Parent directory</string>
+    <string name="red">Red</string>
+    <string name="resetToDefault">Reset to default value.</string>
+    <string name="stl_load_progress_message">Please wait a moment.</string>
+    <string name="stl_load_progress_title">STL file loading...</string>
+    <string name="toggleButtonMove">Move</string>
+    <string name="toggleButtonRotate">Rotate</string>
+    <!-- From: file:/C:/Users/Hanson/AndroidStudioProjects/STLViewer-master/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Animation" parent="android:Animation"/>
+    <style name="Animation.Activity" parent="android:Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+	</style>
+    <style name="Theme.DefaultActivity" parent="android:Theme">   
+		<item name="android:windowAnimationStyle">@style/Animation.Activity</item> 
+    </style>
+    <style name="Theme.Transparent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+	</style>
+</resources>

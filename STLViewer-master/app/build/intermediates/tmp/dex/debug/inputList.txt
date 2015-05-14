@@ -1,0 +1,1 @@
+C:\Users\Hanson\AndroidStudioProjects\STLViewer-master\app\build\intermediates\classes\debug
