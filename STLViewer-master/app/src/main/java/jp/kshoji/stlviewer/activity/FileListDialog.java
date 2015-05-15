@@ -18,7 +18,7 @@ import android.view.KeyEvent;
 import android.view.View;
 
 /**
- * 
+ *
  * @author kshoji
  */
 public class FileListDialog extends Activity implements View.OnClickListener, DialogInterface.OnClickListener, DialogInterface.OnKeyListener {
@@ -32,7 +32,7 @@ public class FileListDialog extends Activity implements View.OnClickListener, Di
 	private String extFilter;
 
 	/**
-	 * 
+	 *
 	 * @return selected file name
 	 */
 	public String getSelectedFileName() {
@@ -45,7 +45,7 @@ public class FileListDialog extends Activity implements View.OnClickListener, Di
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param context
 	 * @param isDirectorySelect
 	 * @param title
@@ -87,7 +87,7 @@ public class FileListDialog extends Activity implements View.OnClickListener, Di
 
 	/**
 	 * Display the file chooser dialog
-	 * 
+	 *
 	 * @param path
 	 */
 	public void show(String path) {

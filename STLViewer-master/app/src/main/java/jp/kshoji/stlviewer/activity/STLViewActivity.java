@@ -7,6 +7,7 @@ import jp.kshoji.stlviewer.renderer.STLRenderer;
 import jp.kshoji.stlviewer.util.Log;
 import jp.kshoji.stlviewer.view.STLView;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
@@ -17,6 +18,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.FrameLayout;
@@ -35,6 +37,9 @@ public class STLViewActivity extends Activity implements FileListDialog.OnFileLi
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+
+		final Context context = this;
+
 		super.onCreate(savedInstanceState);
 
 		PackageManager manager = getPackageManager();
@@ -54,15 +59,19 @@ public class STLViewActivity extends Activity implements FileListDialog.OnFileLi
 		}
 		setUpViews(uri);
 
+		/*TextView button;
 
-        /*findViewById(R.id.textView).setOnClickListener(new OnClickListener(){
+		button = (TextView) findViewById(R.id.textView2);
 
-            @Override
-            public void onClick(View v) {
-                updateTextView(Float.toString(stlView.getAngle()));
-            }
+		button.setOnClickListener(new OnClickListener() {
 
-        });*/
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent(context, WebViewActivity.class);
+				startActivity(intent);
+			}
+
+		});*/
 	}
 
     public void updateTextView(String toThis) {
@@ -167,11 +176,20 @@ public class STLViewActivity extends Activity implements FileListDialog.OnFileLi
             @Override
             public void onClick(View v) {
                 if (stlView != null){
-                    updateTextView(Float.toString(stlView.getAngleX())+"\n"+Float.toString(stlView.getAngleY()));
+                    updateTextView("φ: "+Float.toString(stlView.getAngleX())+"°\nθ: "+Float.toString(stlView.getAngleY())+"°");
                 }
             }
         });
-		
+
+		final Button theoryButton = (Button) findViewById(R.id.theoryButton);
+		theoryButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(STLViewActivity.this, WebViewActivity.class);
+				startActivity(intent);
+			}
+		});
+
 		if (uri != null) {
 			setTitle(uri.getPath().substring(uri.getPath().lastIndexOf("/") + 1));
 			

@@ -29,21 +29,24 @@ public final class R {
         public static final int closeButton=0x7f070001;
         public static final int greenSeekBar=0x7f070006;
         public static final int gridToggleButton=0x7f07000a;
-        public static final int linearLayout=0x7f07000e;
+        public static final int linearLayout=0x7f07000d;
         public static final int loadButton=0x7f07000f;
         public static final int mainLinearLayout=0x7f070002;
         public static final int objectColorView=0x7f070004;
-        public static final int preferncesButton=0x7f070010;
+        public static final int preferncesButton=0x7f070011;
         public static final int redSeekBar=0x7f070005;
         public static final int resetButton=0x7f07000b;
-        public static final int rotateOrMoveToggleButton=0x7f07000c;
+        public static final int rotateOrMoveToggleButton=0x7f070010;
         public static final int scroll=0x7f070000;
-        public static final int stlFrameLayout=0x7f07000d;
-        public static final int textView=0x7f070011;
+        public static final int stlFrameLayout=0x7f07000c;
+        public static final int textView=0x7f070012;
+        public static final int theoryButton=0x7f07000e;
+        public static final int webView1=0x7f070013;
     }
     public static final class layout {
         public static final int preferences=0x7f030000;
         public static final int stl=0x7f030001;
+        public static final int webview=0x7f030002;
     }
     public static final class string {
         public static final int alpha=0x7f050000;

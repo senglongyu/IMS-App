@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    />
+<!-- From: file:/C:/Users/Hanson/Desktop/IMS-App/STLViewer-master/app/src/main/res/layout/webview.xml -->

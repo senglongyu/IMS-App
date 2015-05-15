@@ -8,6 +8,8 @@
         android:minSdkVersion="7"
         android:targetSdkVersion="7" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
@@ -38,6 +40,15 @@
             android:label="@string/app_pref"
             android:theme="@style/Theme.DefaultActivity" >
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.kshoji.stlviewer.activity.WebViewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
