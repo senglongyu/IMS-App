@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+        linePaint.strokeWidth="3dp"
+        linePaint.color="#0000AA"
+        vertexPaint.color="#337777"
+        fillPaint.color="#00000000"/>
+<!-- From: file:/Users/hansonyu/Downloads/androidplot/Examples/DemoApp/res/xml/line_point_formatter_with_plf2.xml -->

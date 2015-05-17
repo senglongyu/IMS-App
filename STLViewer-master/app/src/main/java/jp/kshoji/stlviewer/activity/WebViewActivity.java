@@ -18,7 +18,7 @@ public class WebViewActivity extends Activity {
         webView = (WebView) findViewById(R.id.webView1);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("file:///android_asset/radartheory.html");
+        webView.loadUrl("file:///android_asset/RADAR_Theory_for_APP.html");
 
     }
 

@@ -3,4 +3,4 @@
 	android:interpolator="@android:anim/accelerate_interpolator">
 	<alpha android:duration="500" android:fromAlpha="0.0"
 		android:toAlpha="1.0" />
-</set><!-- From: file:/C:/Users/Hanson/Desktop/IMS-App/STLViewer-master/app/src/main/res/anim/activity_close_enter.xml -->
+</set><!-- From: file:/Users/hansonyu/Desktop/IMS-App/STLViewer-master/app/src/main/res/anim/activity_close_enter.xml -->

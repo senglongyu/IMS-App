@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hansonyu/.gradle/caches/modules-2/files-2.1/com.androidplot/androidplot-core/0.6.1/3db0daea52375b26bfa61c59b8df93950bdefbbc/androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="/Users/hansonyu/Desktop/IMS-App/STLViewer-master/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-d92c5563fc0e135c95de0dc892f7dcb32241318d.jar" />
+    </item>
+
+</items>

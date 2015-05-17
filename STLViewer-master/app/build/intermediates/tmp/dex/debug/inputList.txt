@@ -1,1 +1,2 @@
-C:\Users\Hanson\Desktop\IMS-App\STLViewer-master\app\build\intermediates\classes\debug
+/Users/hansonyu/Desktop/IMS-App/STLViewer-master/app/build/intermediates/classes/debug
+/Users/hansonyu/Desktop/IMS-App/STLViewer-master/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-d92c5563fc0e135c95de0dc892f7dcb32241318d.jar

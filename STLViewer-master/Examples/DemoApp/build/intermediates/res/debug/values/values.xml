@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/apk/lib/com.androidplot.xy">
+    <declare-styleable name="Plot"><attr format="string" name="plotLabel"/><attr format="dimension" name="plotLabelTextSize"/></declare-styleable>
+    <declare-styleable name="XYPlot"><attr format="string" name="androidplot.title"/></declare-styleable>
+    <declare-styleable name="xy.XYPlot"><attr format="string" name="domainLabel"/><attr format="dimension" name="domainLabelTextSize"/><attr format="string" name="rangeLabel"/><attr format="dimension" name="rangeLabelTextSize"/><attr format="dimension" name="graphMarginTop"/><attr format="dimension" name="graphMarginBottom"/><attr format="dimension" name="graphMarginLeft"/><attr format="dimension" name="graphMarginRight"/></declare-styleable>
+    <!-- From: file:/Users/hansonyu/Downloads/androidplot/Examples/DemoApp/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="domain_label_font_size">13dp</dimen>
+    <dimen name="domain_tick_label_font_size">15dp</dimen>
+    <dimen name="legend_text_font_size">20dp</dimen>
+    <dimen name="pie_segment_label_font_size">10dp</dimen>
+    <dimen name="range_label_font_size">13dp</dimen>
+    <dimen name="range_tick_label_font_size">15dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <!-- From: file:/Users/hansonyu/Downloads/androidplot/Examples/DemoApp/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">AndroidPlot POP Demo</string>
+    <string name="sxy_title">A Simple XY POP Plot</string>
+    <string name="ts_plot1_title">Yearly UFO Sightings</string>
+    <string name="ts_title">Time Series</string>
+    <!-- From: file:/Users/hansonyu/Downloads/androidplot/Examples/DemoApp/res/values/style.xml -->
+    <eat-comment/>
+    <ns1:style name="plotStyle1">
+        <!--<item name="androidplot.title">Default Title</item>
+        <item name="androidplot.domainLabel">my domain</item>-->
+        <!--<item name="XYPlot:androidplot.title">my domain</item>-->
+    </ns1:style>
+    <ns1:style name="sample_activity">
+        <ns1:item name="android:layout_width">fill_parent</ns1:item>
+        <ns1:item name="android:layout_height">fill_parent</ns1:item>
+    </ns1:style>
+    <ns1:style name="toc_button">
+        <ns1:item name="android:layout_width">fill_parent</ns1:item>
+        <ns1:item name="android:layout_height">wrap_content</ns1:item>
+    </ns1:style>
+</resources>

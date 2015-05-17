@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/hansonyu/Downloads/androidplot/AndroidPlot-Core/res"><file path="/Users/hansonyu/Downloads/androidplot/AndroidPlot-Core/res/values/attrs.xml" qualifiers=""><declare-styleable name="Plot">
+        <attr format="string" name="plotLabel"/>
+        <attr format="dimension" name="plotLabelTextSize"/>
+    </declare-styleable><declare-styleable name="xy.XYPlot" parent="@style/Plot">
+        <attr format="string" name="domainLabel"/>
+        <attr format="dimension" name="domainLabelTextSize"/>
+        <attr format="string" name="rangeLabel"/>
+        <attr format="dimension" name="rangeLabelTextSize"/>
+        <attr format="dimension" name="graphMarginTop"/>
+        <attr format="dimension" name="graphMarginBottom"/>
+        <attr format="dimension" name="graphMarginLeft"/>
+        <attr format="dimension" name="graphMarginRight"/>
+    </declare-styleable></file></source><source path="/Users/hansonyu/Downloads/androidplot/AndroidPlot-Core/build/generated/res/rs/release"/><source path="/Users/hansonyu/Downloads/androidplot/AndroidPlot-Core/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/Users/hansonyu/Downloads/androidplot/AndroidPlot-Core/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Plot"><attr format="string" name="plotLabel"/><attr format="dimension" name="plotLabelTextSize"/></declare-styleable><declare-styleable name="xy.XYPlot"><attr format="string" name="domainLabel"/><attr format="dimension" name="domainLabelTextSize"/><attr format="string" name="rangeLabel"/><attr format="dimension" name="rangeLabelTextSize"/><attr format="dimension" name="graphMarginTop"/><attr format="dimension" name="graphMarginBottom"/><attr format="dimension" name="graphMarginLeft"/><attr format="dimension" name="graphMarginRight"/></declare-styleable></configuration></mergedItems></merger>

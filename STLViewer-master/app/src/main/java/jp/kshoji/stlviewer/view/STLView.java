@@ -247,8 +247,12 @@ public class STLView extends GLSurfaceView {
         while (angle < 0 || angle > 360)
             if (angle < 0)
                 angle += 360;
+				if (angle > 180)
+					angle = 360 - angle;
             else if (angle > 360)
                 angle -= 360;
+				if (angle > 180)
+					angle = 360 - angle;
         return angle;
     }
 
