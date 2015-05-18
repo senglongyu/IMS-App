@@ -40,20 +40,21 @@ public final class R {
         public static final int closeButton=0x7f080001;
         public static final int greenSeekBar=0x7f080006;
         public static final int gridToggleButton=0x7f08000a;
-        public static final int linearLayout=0x7f08000c;
-        public static final int loadButton=0x7f080010;
+        public static final int linearLayout=0x7f08000d;
+        public static final int linearLayout2=0x7f08000c;
+        public static final int loadButton=0x7f080011;
         public static final int mainLinearLayout=0x7f080002;
-        public static final int mySimpleXYPlot=0x7f08000e;
+        public static final int mySimpleXYPlot=0x7f08000f;
         public static final int objectColorView=0x7f080004;
-        public static final int preferncesButton=0x7f080012;
+        public static final int preferncesButton=0x7f080013;
         public static final int redSeekBar=0x7f080005;
         public static final int resetButton=0x7f08000b;
-        public static final int rotateOrMoveToggleButton=0x7f080011;
+        public static final int rotateOrMoveToggleButton=0x7f080012;
         public static final int scroll=0x7f080000;
-        public static final int stlFrameLayout=0x7f08000d;
-        public static final int textView=0x7f080013;
-        public static final int theoryButton=0x7f08000f;
-        public static final int webView1=0x7f080014;
+        public static final int stlFrameLayout=0x7f08000e;
+        public static final int textView=0x7f080014;
+        public static final int theoryButton=0x7f080010;
+        public static final int webView1=0x7f080015;
     }
     public static final class layout {
         public static final int preferences=0x7f030000;

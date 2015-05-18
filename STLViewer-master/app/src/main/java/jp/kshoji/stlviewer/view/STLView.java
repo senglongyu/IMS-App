@@ -239,7 +239,7 @@ public class STLView extends GLSurfaceView {
                 angle += 360;
             else if (angle > 360)
                 angle -= 360;
-            return angle;
+            return 360 - angle;
     }
 
     public float getAngleY() {

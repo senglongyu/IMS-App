@@ -12,10 +12,10 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="RCS Viewer" >
         <activity
             android:name="jp.kshoji.stlviewer.activity.STLViewActivity"
-            android:label="STLViewer" >
+            android:label="RCS Viewer" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
